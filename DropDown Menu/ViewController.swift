@@ -40,11 +40,11 @@ class ViewController: UIViewController, IGLDropDownMenuDelegate {
     
     func setupInit() {
 
-        var dropdownItems:NSMutableArray = NSMutableArray()
+        let dropdownItems:NSMutableArray = NSMutableArray()
         
         for i in 0...(dataTitle.count-1) {
             
-            var item = IGLDropDownItem()
+            let item = IGLDropDownItem()
             item.iconImage = UIImage(named: "\(dataImage[i])")
             item.text = "\(dataTitle[i])"
             dropdownItems.addObject(item)
@@ -61,7 +61,7 @@ class ViewController: UIViewController, IGLDropDownMenuDelegate {
         //dropDownMenu.rotate = IGLDropDownMenuRotate.Random //add rotate value for tilting the
         dropDownMenu.reloadView()
         
-        var myLabel = UILabel()
+        let myLabel = UILabel()
         myLabel.text = "SwiftyOS Blog"
         myLabel.textColor = UIColor.whiteColor()
         myLabel.font = UIFont(name: "Helvetica-Neue", size: 17.0)
@@ -75,8 +75,8 @@ class ViewController: UIViewController, IGLDropDownMenuDelegate {
     
     func dropDownMenu(dropDownMenu: IGLDropDownMenu!, selectedItemAtIndex index: Int) {
         
-        var item:IGLDropDownItem = dropDownMenu.dropDownItems[index] as! IGLDropDownItem
-        println("Selected weather \(item.text)")
+        let item:IGLDropDownItem = dropDownMenu.dropDownItems[index] as! IGLDropDownItem
+        print("Selected weather \(item.text)")
         
         
     }

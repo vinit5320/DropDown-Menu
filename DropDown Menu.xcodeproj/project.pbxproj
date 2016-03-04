@@ -176,6 +176,8 @@
 		15DFDF251B7A5BE700B197D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = ViNiT;
 				TargetAttributes = {
@@ -438,6 +440,7 @@
 				15DFDF4E1B7A5BE800B197D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15DFDF4F1B7A5BE800B197D9 /* Build configuration list for PBXNativeTarget "DropDown MenuTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +449,7 @@
 				15DFDF511B7A5BE800B197D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
